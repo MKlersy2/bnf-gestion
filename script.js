@@ -11,7 +11,7 @@ function findCollections() {
             var sonElement = '';
             listeSons.forEach((son, index) => {
                 sonElement += `
-                <div class="subGlobalElement">
+                <div class="subGlobalElement" index="${index}">
                     <input placeholder="name" name="name" value="${son.name}" idCollection="${index}"/>
                     <input placeholder="desc" name="desc" value="${son.desc}" idCollection="${index}"/>
                     <input placeholder="subDesc" name="subDesc" value="${son.subDesc}" idCollection="${index}"/>
@@ -93,7 +93,7 @@ function addElement(key) {
     const totalElement = $(`#collection${key}`).children('.subGlobalElement');
     const countElement = totalElement.length + 1;
     $(`#collection${key}`).append(`
-        <div class="subGlobalElement">
+        <div class="subGlobalElement" index="${countElement}">
             <input placeholder="name" name="name" value="" idCollection="${countElement}"/>
             <input placeholder="desc" name="desc" idCollection="${countElement}"/>
             <input placeholder="subDesc" name="subDesc" idCollection="${countElement}"/>
@@ -107,5 +107,6 @@ function addElement(key) {
 }
 
 function deleteElement(key, index) {
-    $(`#collection${key} .subGlobalElement:nth-child(${index})`).remove();
+    const newIndex = index;
+    $(`#collection${key} .subGlobalElement[index="${newIndex}"]`).remove();
 }
