@@ -30,8 +30,8 @@ function findCollections() {
                         <input placeholder="img" value="${element.img}" name="img"/>
                     </div>
                     <div style="display:flex;">
-                        <div class="button" style="width: calc(100% - 10px)" onclick="openCollection(${key})">Ouvrir la collection</div>
-                        <div class="button" onclick="addElement(${key})">Ajouter</div>
+                        <div class="button" style="width: 75%;margin-right:10px;" onclick="openCollection(${key})">Ouvrir la collection</div>
+                        <div class="button addElementButton" onclick="addElement(${key})">Ajouter un extrait</div>
                     </div>
                     <div id="collection${key}" class="globalElement detailElement">
                         ${sonElement}
@@ -44,8 +44,21 @@ function findCollections() {
 
 findCollections()
 
-function openCollection(key) {
-    $(`#collection${key}`).css('display', 'flex');
+let oldCollection = '';
+
+function openCollection(key, actual) {
+    if(actual == 'actual' && key == oldCollection && oldCollection !== '') {
+    } else {
+        $(`#collection${key}`).css('display', 'flex');
+        $(`[onclick="openCollection(${key})"]`).html('Fermer la collection');
+        $(`#collection${oldCollection}`).css('display', 'none');    
+        $(`[onclick="openCollection(${oldCollection})"]`).html('Ouvrir la collection');
+        if(oldCollection !== key) {
+            oldCollection = key;
+        } else {
+            oldCollection = '';
+        }
+    }
 }
 
 function generate() {
@@ -87,23 +100,40 @@ function generate() {
         }
     }
     $('.result').text(JSON.stringify(myJson))
+    const blob = new Blob([JSON.stringify(myJson)], { type: "text/plain;charset=utf-8" });
+    var isIE = false || !!document.documentMode;
+    if (isIE) {
+        window.navigator.msSaveBlob(blob, "list.json");
+    } else {
+        var url = window.URL || window.webkitURL;
+        link = url.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.download = "list.json";
+        a.href = link;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }
 }
 
 function addElement(key) {
+    openCollection(key, 'actual');
     const totalElement = $(`#collection${key}`).children('.subGlobalElement');
     const countElement = totalElement.length + 1;
     $(`#collection${key}`).append(`
-        <div class="subGlobalElement" index="${countElement}">
-            <input placeholder="name" name="name" value="" idCollection="${countElement}"/>
-            <input placeholder="desc" name="desc" idCollection="${countElement}"/>
-            <input placeholder="subDesc" name="subDesc" idCollection="${countElement}"/>
-            <input placeholder="cote" name="cote" idCollection="${countElement}"/>
-            <input placeholder="provenance" name="provenance" idCollection="${countElement}"/>
-            <input placeholder="url" name="url" idCollection="${countElement}"/>
-            <input placeholder="img" name="img" idCollection="${countElement}"/>
-            <div class="buttonDelete" onclick="deleteElement(${key}, ${countElement})">Supprimer</div>
-        </div>
-    `)
+    <div class="subGlobalElement" index="${countElement}">
+    <input placeholder="Nom de l'ouvrage" name="name" value="" idCollection="${countElement}"/>
+    <input placeholder="Description" name="desc" idCollection="${countElement}"/>
+    <input placeholder="Description complémentaire" name="subDesc" idCollection="${countElement}"/>
+    <input placeholder="Cote" name="cote" idCollection="${countElement}"/>
+    <input placeholder="Provenance" name="provenance" idCollection="${countElement}"/>
+    <input placeholder="Url" name="url" idCollection="${countElement}"/>
+    <input placeholder="Image de la collection" name="img" idCollection="${countElement}"/>
+    <div class="buttonDelete" onclick="deleteElement(${key}, ${countElement})">Supprimer</div>
+    </div>
+    `);
+    const globalElement = $(`#collection${key}`);
+    globalElement.scrollLeft(globalElement.width());
 }
 
 function deleteElement(key, index) {
