@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'GraphikReg';
+    font-style: normal;
+    src: url('./Graphik-Regular.woff') format('woff')
+}
+
 body,html {
     padding: 0;
     margin: 0;
+    font-family: 'GraphikReg';
 }
 
 h2 {
