@@ -281,5 +281,8 @@
                 "img": "images/chantTraditionnelBreton.jpg"
             }
         ]
+    },
+    {
+        "credits": "Test"
     }
 ]

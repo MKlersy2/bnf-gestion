@@ -6,6 +6,9 @@ function findCollections() {
     };
     
     $.ajax(settings).done(function (response) {
+        const cred = response.slice(-1)[0];
+        console.log(cred)
+        response = response.slice(0, -1);
         response.forEach((element, key) => {
             const listeSons = element.sons;
             var sonElement = '';
@@ -39,6 +42,12 @@ function findCollections() {
                 </div>
             `)
         }); 
+        $('.subGlobal').append(`
+            <div class="generalElement">
+                <label for="credits">Ligne de crédits</label>
+                <input placeholder="Crédits" value="${cred.credits}" name="credits"/>
+            </div>
+        `)
     });
 }
 
@@ -64,7 +73,7 @@ function openCollection(key, actual) {
 function generate() {
     const general = $('.generalElement');
     const myJson = [];
-    for (let index = 0; index < general.length; index++) {
+    for (let index = 0; index < general.length - 1; index++) {
         const element = general[index];
         const name = $(element).children('.nameElement').children('input[name="name"]').val();
         const img = $(element).children('.nameElement').children('input[name="img"]').val();
@@ -99,6 +108,7 @@ function generate() {
             )
         }
     }
+    myJson.push({"credits": $('input[name="credits"]').val()});
     $('.result').text(JSON.stringify(myJson))
     const blob = new Blob([JSON.stringify(myJson)], { type: "text/plain;charset=utf-8" });
     var isIE = false || !!document.documentMode;
