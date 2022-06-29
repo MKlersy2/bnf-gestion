@@ -1,288 +1,331 @@
-[
-    {
-        "name": "Voix d’écrivains et de poètes",
-        "img": "menu-ecrivainsPoetes.jpg",
-        "reference": 0,
-        "sons": [
-            {
-                "name": "Colette vous parle",
-                "desc": "Sidonie-Gabrielle Colette",
-                "subDesc": "Enregistrement sonore sur disque 33t, 30cm \nDate d’édition : 1955",
-                "cote": "Cote C-10802",
-                "provenance": "BnF Dépôt Légal",
-                "url": "audios/coletteVousParle.mp3",
-                "img": "images/coletteVousParle.jpg"
-            },{
-                "name": "Colette vous parle",
-                "desc": "Sidonie-Gabrielle Colette",
-                "subDesc": "Enregistrement sonore sur disque 33t, 30cm \nDate d’édition : 1955",
-                "cote": "Cote C-10802",
-                "provenance": "BnF Dépôt Légal",
-                "url": "audios/coletteVousParle.mp3",
-                "img": "images/coletteVousParle.jpg"
-            },{
-                "name": "Colette vous parle",
-                "desc": "Sidonie-Gabrielle Colette",
-                "subDesc": "Enregistrement sonore sur disque 33t, 30cm \nDate d’édition : 1955",
-                "cote": "Cote C-10802",
-                "provenance": "BnF Dépôt Légal",
-                "url": "audios/coletteVousParle.mp3",
-                "img": "images/coletteVousParle.jpg"
-            },{
-                "name": "Colette vous parle",
-                "desc": "Sidonie-Gabrielle Colette",
-                "subDesc": "Enregistrement sonore sur disque 33t, 30cm \nDate d’édition : 1955",
-                "cote": "Cote C-10802",
-                "provenance": "BnF Dépôt Légal",
-                "url": "audios/coletteVousParle.mp3",
-                "img": "images/coletteVousParle.jpg"
-            },{
-                "name": "Colette vous parle",
-                "desc": "Sidonie-Gabrielle Colette",
-                "subDesc": "Enregistrement sonore sur disque 33t, 30cm \nDate d’édition : 1955",
-                "cote": "Cote C-10802",
-                "provenance": "BnF Dépôt Légal",
-                "url": "audios/coletteVousParle.mp3",
-                "img": "images/coletteVousParle.jpg"
-            }
-        ]
+[{
+    "name": "Voix d’écrivains et de poètes",
+    "img": "menu-ecrivainsPoetes.jpg",
+    "reference": 0,
+    "sons": [{
+        "name": "Colette vous parle",
+        "desc": "Sidonie-Gabrielle Colette",
+        "subDesc": "Enregistrement sonore sur disque 33t, 30cm Date d’édition : 1955",
+        "cote": "Cote C-10802",
+        "provenance": "BnF Dépôt Légal",
+        "url": "audios/coletteVousParle.mp3",
+        "img": "images/coletteVousParle.jpg"
     }, {
-        "name": "Voix d’hommes et de femmes politiques",
-        "img": "menu-hommesFemmesPolitiques.jpg",
-        "reference": 1,
-        "sons": [
+        "name": "Colette vous parle",
+        "desc": "Sidonie-Gabrielle Colette",
+        "subDesc": "Enregistrement sonore sur disque 33t, 30cm Date d’édition : 1955",
+        "cote": "Cote C-10802",
+        "provenance": "BnF Dépôt Légal",
+        "url": "audios/coletteVousParle.mp3",
+        "img": "images/coletteVousParle.jpg"
+    }, {
+        "name": "Colette vous parle",
+        "desc": "Sidonie-Gabrielle Colette",
+        "subDesc": "Enregistrement sonore sur disque 33t, 30cm Date d’édition : 1955",
+        "cote": "Cote C-10802",
+        "provenance": "BnF Dépôt Légal",
+        "url": "audios/coletteVousParle.mp3",
+        "img": "images/coletteVousParle.jpg"
+    }, {
+        "name": "Colette vous parle",
+        "desc": "Sidonie-Gabrielle Colette",
+        "subDesc": "Enregistrement sonore sur disque 33t, 30cm Date d’édition : 1955",
+        "cote": "Cote C-10802",
+        "provenance": "BnF Dépôt Légal",
+        "url": "audios/coletteVousParle.mp3",
+        "img": "images/coletteVousParle.jpg"
+    }, {
+        "name": "Colette vous parle",
+        "desc": "Sidonie-Gabrielle Colette",
+        "subDesc": "Enregistrement sonore sur disque 33t, 30cm Date d’édition : 1955",
+        "cote": "Cote C-10802",
+        "provenance": "BnF Dépôt Légal",
+        "url": "audios/coletteVousParle.mp3",
+        "img": "images/coletteVousParle.jpg"
+    }]
+}, {
+    "name": "Voix d’hommes et de femmes politiques",
+    "img": "menu-hommesFemmesPolitiques.jpg",
+    "reference": 1,
+    "sons": [{
+        "name": "Discours prononcé le 14 juillet 1915",
+        "desc": "Raymond Poincaré",
+        "subDesc": "Enregistrement sur disque 80t, 30 cm Date d’édition : 1915",
+        "cote": "Cote SD 78 30-7241",
+        "provenance": "Prov. : BnF",
+        "url": "audios/raymondPoincare.mp3",
+        "img": "images/raymondPoincare.jpg"
+    }, {
+        "name": "Discours prononcé le 14 juillet 1915",
+        "desc": "Raymond Poincaré",
+        "subDesc": "Enregistrement sur disque 80t, 30 cm Date d’édition : 1915",
+        "cote": "Cote SD 78 30-7241",
+        "provenance": "Prov. : BnF",
+        "url": "audios/raymondPoincare.mp3",
+        "img": "images/raymondPoincare.jpg"
+    }, {
+        "name": "Discours prononcé le 14 juillet 1915",
+        "desc": "Raymond Poincaré",
+        "subDesc": "Enregistrement sur disque 80t, 30 cm Date d’édition : 1915",
+        "cote": "Cote SD 78 30-7241",
+        "provenance": "Prov. : BnF",
+        "url": "audios/raymondPoincare.mp3",
+        "img": "images/raymondPoincare.jpg"
+    }, {
+        "name": "Discours prononcé le 14 juillet 1915",
+        "desc": "Raymond Poincaré",
+        "subDesc": "Enregistrement sur disque 80t, 30 cm Date d’édition : 1915",
+        "cote": "Cote SD 78 30-7241",
+        "provenance": "Prov. : BnF",
+        "url": "audios/raymondPoincare.mp3",
+        "img": "images/raymondPoincare.jpg"
+    }, {
+        "name": "Discours prononcé le 14 juillet 1915",
+        "desc": "Raymond Poincaré",
+        "subDesc": "Enregistrement sur disque 80t, 30 cm Date d’édition : 1915",
+        "cote": "Cote SD 78 30-7241",
+        "provenance": "Prov. : BnF",
+        "url": "audios/raymondPoincare.mp3",
+        "img": "images/raymondPoincare.jpg"
+    }]
+}, {
+    "name": "Voix de comédiens et comédiennes",
+    "img": "menu-comediens.jpg",
+    "reference": 2,
+    "sons": [{
+        "name": "L’obsession",
+        "desc": "Coquelin cadet de la Comédie française",
+        "subDesc": "Enregistrement sur disque 78t, 25 cm Date d’édition : 1903",
+        "cote": "Cote NC Gramophone GC 31114",
+        "provenance": "Prov. : BnF",
+        "url": "audios/lObsession.mp3",
+        "img": "images/lObsession.jpg"
+    }, {
+        "name": "L’obsession",
+        "desc": "Coquelin cadet de la Comédie française",
+        "subDesc": "Enregistrement sur disque 78t, 25 cm Date d’édition : 1903",
+        "cote": "Cote NC Gramophone GC 31114",
+        "provenance": "Prov. : BnF",
+        "url": "audios/lObsession.mp3",
+        "img": "images/lObsession.jpg"
+    }, {
+        "name": "L’obsession",
+        "desc": "Coquelin cadet de la Comédie française",
+        "subDesc": "Enregistrement sur disque 78t, 25 cm Date d’édition : 1903",
+        "cote": "Cote NC Gramophone GC 31114",
+        "provenance": "Prov. : BnF",
+        "url": "audios/lObsession.mp3",
+        "img": "images/lObsession.jpg"
+    }, {
+        "name": "L’obsession",
+        "desc": "Coquelin cadet de la Comédie française",
+        "subDesc": "Enregistrement sur disque 78t, 25 cm Date d’édition : 1903",
+        "cote": "Cote NC Gramophone GC 31114",
+        "provenance": "Prov. : BnF",
+        "url": "audios/lObsession.mp3",
+        "img": "images/lObsession.jpg"
+    }, {
+        "name": "L’obsession",
+        "desc": "Coquelin cadet de la Comédie française",
+        "subDesc": "Enregistrement sur disque 78t, 25 cm Date d’édition : 1903",
+        "cote": "Cote NC Gramophone GC 31114",
+        "provenance": "Prov. : BnF",
+        "url": "audios/lObsession.mp3",
+        "img": "images/lObsession.jpg"
+    }]
+}, {
+    "name": "Voix de sportifs",
+    "img": "menu-sportifs.jpg",
+    "reference": 3,
+    "sons": [{
+        "name": "Interview",
+        "desc": "Marcel Cerdan",
+        "subDesc": "Enregistrement sur disque 33t, 30 cm Date d’édition : 1955",
+        "cote": "Cote B-10201",
+        "provenance": "Prov. : BnF-Dépôt Légal",
+        "url": "audios/marcelCerdan.mp3",
+        "img": "images/marcelCerdan.jpg"
+    }, {
+        "name": "Interview",
+        "desc": "Marcel Cerdan",
+        "subDesc": "Enregistrement sur disque 33t, 30 cm Date d’édition : 1955",
+        "cote": "Cote B-10201",
+        "provenance": "Prov. : BnF-Dépôt Légal",
+        "url": "audios/marcelCerdan.mp3",
+        "img": "images/marcelCerdan.jpg"
+    }, {
+        "name": "Interview",
+        "desc": "Marcel Cerdan",
+        "subDesc": "Enregistrement sur disque 33t, 30 cm Date d’édition : 1955",
+        "cote": "Cote B-10201",
+        "provenance": "Prov. : BnF-Dépôt Légal",
+        "url": "audios/marcelCerdan.mp3",
+        "img": "images/marcelCerdan.jpg"
+    }, {
+        "name": "Interview",
+        "desc": "Marcel Cerdan",
+        "subDesc": "Enregistrement sur disque 33t, 30 cm Date d’édition : 1955",
+        "cote": "Cote B-10201",
+        "provenance": "Prov. : BnF-Dépôt Légal",
+        "url": "audios/marcelCerdan.mp3",
+        "img": "images/marcelCerdan.jpg"
+    }, {
+        "name": "Interview",
+        "desc": "Marcel Cerdan",
+        "subDesc": "Enregistrement sur disque 33t, 30 cm Date d’édition : 1955",
+        "cote": "Cote B-10201",
+        "provenance": "Prov. : BnF-Dépôt Légal",
+        "url": "audios/marcelCerdan.mp3",
+        "img": "images/marcelCerdan.jpg"
+    }]
+}, {
+    "name": "Voix d’hommes de sciences",
+    "img": "menu-hommesSciences.jpg",
+    "reference": 4,
+    "sons": [{
+        "name": "Parachutage au Groenland",
+        "desc": "Paul-Emile Victor",
+        "subDesc": "Enregistrement sur disque 33t, 25 cm Date d’édition : 1954",
+        "cote": "Cote C-11175",
+        "provenance": "Prov. : BnF Dépôt Légal",
+        "url": "audios/parachutageAuGroenland.mp3",
+        "img": "images/parachutageAuGroenland.jpg"
+    }, {
+        "name": "Parachutage au Groenland",
+        "desc": "Paul-Emile Victor",
+        "subDesc": "Enregistrement sur disque 33t, 25 cm Date d’édition : 1954",
+        "cote": "Cote C-11175",
+        "provenance": "Prov. : BnF Dépôt Légal",
+        "url": "audios/parachutageAuGroenland.mp3",
+        "img": "images/parachutageAuGroenland.jpg"
+    }, {
+        "name": "Parachutage au Groenland",
+        "desc": "Paul-Emile Victor",
+        "subDesc": "Enregistrement sur disque 33t, 25 cm Date d’édition : 1954",
+        "cote": "Cote C-11175",
+        "provenance": "Prov. : BnF Dépôt Légal",
+        "url": "audios/parachutageAuGroenland.mp3",
+        "img": "images/parachutageAuGroenland.jpg"
+    }, {
+        "name": "Parachutage au Groenland",
+        "desc": "Paul-Emile Victor",
+        "subDesc": "Enregistrement sur disque 33t, 25 cm Date d’édition : 1954",
+        "cote": "Cote C-11175",
+        "provenance": "Prov. : BnF Dépôt Légal",
+        "url": "audios/parachutageAuGroenland.mp3",
+        "img": "images/parachutageAuGroenland.jpg"
+    }, {
+        "name": "Parachutage au Groenland",
+        "desc": "Paul-Emile Victor",
+        "subDesc": "Enregistrement sur disque 33t, 25 cm Date d’édition : 1954",
+        "cote": "Cote C-11175",
+        "provenance": "Prov. : BnF Dépôt Légal",
+        "url": "audios/parachutageAuGroenland.mp3",
+        "img": "images/parachutageAuGroenland.jpg"
+    }]
+}, {
+    "name": "Voix du monde",
+    "img": "menu-monde.jpg",
+    "reference": 5,
+    "sons": [{
+        "name": "Chant traditionnel breton",
+        "desc": "Interprète inconnu (collecté par Léon Azoulay)",
+        "subDesc": "Enregistrement sur cylindre, 140t/min Date d’édition : 1902",
+        "cote": "Cote CYL-428",
+        "provenance": "Prov. : BnF ",
+        "url": "audios/chantTraditionnelBreton.mp3",
+        "img": "images/chantTraditionnelBreton.jpg"
+    }, {
+        "name": "Chant traditionnel breton",
+        "desc": "Interprète inconnu (collecté par Léon Azoulay)",
+        "subDesc": "Enregistrement sur cylindre, 140t/min Date d’édition : 1902",
+        "cote": "Cote CYL-428",
+        "provenance": "Prov. : BnF ",
+        "url": "audios/chantTraditionnelBreton.mp3",
+        "img": "images/chantTraditionnelBreton.jpg"
+    }, {
+        "name": "Chant traditionnel breton",
+        "desc": "Interprète inconnu (collecté par Léon Azoulay)",
+        "subDesc": "Enregistrement sur cylindre, 140t/min Date d’édition : 1902",
+        "cote": "Cote CYL-428",
+        "provenance": "Prov. : BnF ",
+        "url": "audios/chantTraditionnelBreton.mp3",
+        "img": "images/chantTraditionnelBreton.jpg"
+    }, {
+        "name": "Chant traditionnel breton",
+        "desc": "Interprète inconnu (collecté par Léon Azoulay)",
+        "subDesc": "Enregistrement sur cylindre, 140t/min Date d’édition : 1902",
+        "cote": "Cote CYL-428",
+        "provenance": "Prov. : BnF ",
+        "url": "audios/chantTraditionnelBreton.mp3",
+        "img": "images/chantTraditionnelBreton.jpg"
+    }, {
+        "name": "Chant traditionnel breton",
+        "desc": "Interprète inconnu (collecté par Léon Azoulay)",
+        "subDesc": "Enregistrement sur cylindre, 140t/min Date d’édition : 1902",
+        "cote": "Cote CYL-428",
+        "provenance": "Prov. : BnF ",
+        "url": "audios/chantTraditionnelBreton.mp3",
+        "img": "images/chantTraditionnelBreton.jpg"
+    }]
+}, {
+    "credits": "Crédits",
+    "details": [
+        {
+            "title": "Crédits",
+            "content": [
                 {
-                "name": "Discours prononcé le 14 juillet 1915",
-                "desc": "Raymond Poincaré",
-                "subDesc": "Enregistrement sur disque 80t, 30 cm \nDate d’édition : 1915",
-                "cote": "Cote  SD 78 30-7241",
-                "provenance": "Prov. : BnF",
-                "url": "audios/raymondPoincare.mp3",
-                "img": "images/raymondPoincare.jpg"
-            },{
-                "name": "Discours prononcé le 14 juillet 1915",
-                "desc": "Raymond Poincaré",
-                "subDesc": "Enregistrement sur disque 80t, 30 cm \nDate d’édition : 1915",
-                "cote": "Cote  SD 78 30-7241",
-                "provenance": "Prov. : BnF",
-                "url": "audios/raymondPoincare.mp3",
-                "img": "images/raymondPoincare.jpg"
-            },{
-                "name": "Discours prononcé le 14 juillet 1915",
-                "desc": "Raymond Poincaré",
-                "subDesc": "Enregistrement sur disque 80t, 30 cm \nDate d’édition : 1915",
-                "cote": "Cote  SD 78 30-7241",
-                "provenance": "Prov. : BnF",
-                "url": "audios/raymondPoincare.mp3",
-                "img": "images/raymondPoincare.jpg"
-            },{
-                "name": "Discours prononcé le 14 juillet 1915",
-                "desc": "Raymond Poincaré",
-                "subDesc": "Enregistrement sur disque 80t, 30 cm \nDate d’édition : 1915",
-                "cote": "Cote  SD 78 30-7241",
-                "provenance": "Prov. : BnF",
-                "url": "audios/raymondPoincare.mp3",
-                "img": "images/raymondPoincare.jpg"
-            },{
-                "name": "Discours prononcé le 14 juillet 1915",
-                "desc": "Raymond Poincaré",
-                "subDesc": "Enregistrement sur disque 80t, 30 cm \nDate d’édition : 1915",
-                "cote": "Cote  SD 78 30-7241",
-                "provenance": "Prov. : BnF",
-                "url": "audios/raymondPoincare.mp3",
-                "img": "images/raymondPoincare.jpg"
-            }
-        ]
-    }, {
-        "name": "Voix de comédiens et comédiennes",
-        "img": "menu-comediens.jpg",
-        "reference": 2,
-        "sons": [
+                    "title": "",
+                    "desc": "Exemple de crédits : ce dispositif a été produit dans le cadre de l'exposition « L’aventure Champollion. Dans le secret des hiéroglyphes », organisée par la Bibliothèque nationale de France."
+                },
                 {
-                "name": "L’obsession",
-                "desc": "Coquelin cadet de la Comédie française",
-                "subDesc": "Enregistrement sur disque 78t, 25 cm \nDate d’édition : 1903",
-                "cote": "Cote  NC Gramophone GC 31114",
-                "provenance": "Prov. : BnF",
-                "url": "audios/lObsession.mp3",
-                "img": "images/lObsession.jpg"
-            },{
-                "name": "L’obsession",
-                "desc": "Coquelin cadet de la Comédie française",
-                "subDesc": "Enregistrement sur disque 78t, 25 cm \nDate d’édition : 1903",
-                "cote": "Cote  NC Gramophone GC 31114",
-                "provenance": "Prov. : BnF",
-                "url": "audios/lObsession.mp3",
-                "img": "images/lObsession.jpg"
-            },{
-                "name": "L’obsession",
-                "desc": "Coquelin cadet de la Comédie française",
-                "subDesc": "Enregistrement sur disque 78t, 25 cm \nDate d’édition : 1903",
-                "cote": "Cote  NC Gramophone GC 31114",
-                "provenance": "Prov. : BnF",
-                "url": "audios/lObsession.mp3",
-                "img": "images/lObsession.jpg"
-            },{
-                "name": "L’obsession",
-                "desc": "Coquelin cadet de la Comédie française",
-                "subDesc": "Enregistrement sur disque 78t, 25 cm \nDate d’édition : 1903",
-                "cote": "Cote  NC Gramophone GC 31114",
-                "provenance": "Prov. : BnF",
-                "url": "audios/lObsession.mp3",
-                "img": "images/lObsession.jpg"
-            },{
-                "name": "L’obsession",
-                "desc": "Coquelin cadet de la Comédie française",
-                "subDesc": "Enregistrement sur disque 78t, 25 cm \nDate d’édition : 1903",
-                "cote": "Cote  NC Gramophone GC 31114",
-                "provenance": "Prov. : BnF",
-                "url": "audios/lObsession.mp3",
-                "img": "images/lObsession.jpg"
-            }
-        ]
-    }, {
-        "name": "Voix de sportifs",
-        "img": "menu-sportifs.jpg",
-        "reference": 3,
-        "sons": [
-            {
-                "name": "Interview",
-                "desc": "Marcel Cerdan",
-                "subDesc": "Enregistrement sur disque 33t, 30 cm \nDate d’édition : 1955",
-                "cote": "Cote B-10201",
-                "provenance": "Prov. : BnF-Dépôt Légal",
-                "url": "audios/marcelCerdan.mp3",
-                "img": "images/marcelCerdan.jpg"
-            },{
-                "name": "Interview",
-                "desc": "Marcel Cerdan",
-                "subDesc": "Enregistrement sur disque 33t, 30 cm \nDate d’édition : 1955",
-                "cote": "Cote B-10201",
-                "provenance": "Prov. : BnF-Dépôt Légal",
-                "url": "audios/marcelCerdan.mp3",
-                "img": "images/marcelCerdan.jpg"
-            },{
-                "name": "Interview",
-                "desc": "Marcel Cerdan",
-                "subDesc": "Enregistrement sur disque 33t, 30 cm \nDate d’édition : 1955",
-                "cote": "Cote B-10201",
-                "provenance": "Prov. : BnF-Dépôt Légal",
-                "url": "audios/marcelCerdan.mp3",
-                "img": "images/marcelCerdan.jpg"
-            },{
-                "name": "Interview",
-                "desc": "Marcel Cerdan",
-                "subDesc": "Enregistrement sur disque 33t, 30 cm \nDate d’édition : 1955",
-                "cote": "Cote B-10201",
-                "provenance": "Prov. : BnF-Dépôt Légal",
-                "url": "audios/marcelCerdan.mp3",
-                "img": "images/marcelCerdan.jpg"
-            },{
-                "name": "Interview",
-                "desc": "Marcel Cerdan",
-                "subDesc": "Enregistrement sur disque 33t, 30 cm \nDate d’édition : 1955",
-                "cote": "Cote B-10201",
-                "provenance": "Prov. : BnF-Dépôt Légal",
-                "url": "audios/marcelCerdan.mp3",
-                "img": "images/marcelCerdan.jpg"
-            }
-        ]
-    }, {
-        "name": "Voix d’hommes de sciences",
-        "img": "menu-hommesSciences.jpg",
-        "reference": 4,
-        "sons": [
+                    "title": "Direction du département des éditions",
+                    "desc": "Benjamin Arranger"
+                },
                 {
-                "name": "Parachutage au Groenland",
-                "desc": "Paul-Emile Victor",
-                "subDesc": "Enregistrement sur disque 33t, 25 cm \nDate d’édition : 1954",
-                "cote": "Cote  C-11175",
-                "provenance": "Prov. : BnF  Dépôt Légal",
-                "url": "audios/parachutageAuGroenland.mp3",
-                "img": "images/parachutageAuGroenland.jpg"
-            },{
-                "name": "Parachutage au Groenland",
-                "desc": "Paul-Emile Victor",
-                "subDesc": "Enregistrement sur disque 33t, 25 cm \nDate d’édition : 1954",
-                "cote": "Cote  C-11175",
-                "provenance": "Prov. : BnF  Dépôt Légal",
-                "url": "audios/parachutageAuGroenland.mp3",
-                "img": "images/parachutageAuGroenland.jpg"
-            },{
-                "name": "Parachutage au Groenland",
-                "desc": "Paul-Emile Victor",
-                "subDesc": "Enregistrement sur disque 33t, 25 cm \nDate d’édition : 1954",
-                "cote": "Cote  C-11175",
-                "provenance": "Prov. : BnF  Dépôt Légal",
-                "url": "audios/parachutageAuGroenland.mp3",
-                "img": "images/parachutageAuGroenland.jpg"
-            },{
-                "name": "Parachutage au Groenland",
-                "desc": "Paul-Emile Victor",
-                "subDesc": "Enregistrement sur disque 33t, 25 cm \nDate d’édition : 1954",
-                "cote": "Cote  C-11175",
-                "provenance": "Prov. : BnF  Dépôt Légal",
-                "url": "audios/parachutageAuGroenland.mp3",
-                "img": "images/parachutageAuGroenland.jpg"
-            },{
-                "name": "Parachutage au Groenland",
-                "desc": "Paul-Emile Victor",
-                "subDesc": "Enregistrement sur disque 33t, 25 cm \nDate d’édition : 1954",
-                "cote": "Cote  C-11175",
-                "provenance": "Prov. : BnF  Dépôt Légal",
-                "url": "audios/parachutageAuGroenland.mp3",
-                "img": "images/parachutageAuGroenland.jpg"
-            }
-        ]
-    }, {
-        "name": "Voix du monde",
-        "img": "menu-monde.jpg",
-        "reference": 5,
-        "sons": [
+                    "title": "Direction éditoriale",
+                    "desc": "Yannis Koïkas, Chef du service des Éditions multimédias, BnF"
+                },
                 {
-                "name": "Chant traditionnel breton",
-                "desc": "Interprète inconnu (collecté par Léon Azoulay)",
-                "subDesc": "Enregistrement sur cylindre, 140t/min \nDate d’édition : 1902",
-                "cote": "Cote CYL-428",
-                "provenance": "Prov. : BnF ",
-                "url": "audios/chantTraditionnelBreton.mp3",
-                "img": "images/chantTraditionnelBreton.jpg"
-            },{
-                "name": "Chant traditionnel breton",
-                "desc": "Interprète inconnu (collecté par Léon Azoulay)",
-                "subDesc": "Enregistrement sur cylindre, 140t/min \nDate d’édition : 1902",
-                "cote": "Cote CYL-428",
-                "provenance": "Prov. : BnF ",
-                "url": "audios/chantTraditionnelBreton.mp3",
-                "img": "images/chantTraditionnelBreton.jpg"
-            },{
-                "name": "Chant traditionnel breton",
-                "desc": "Interprète inconnu (collecté par Léon Azoulay)",
-                "subDesc": "Enregistrement sur cylindre, 140t/min \nDate d’édition : 1902",
-                "cote": "Cote CYL-428",
-                "provenance": "Prov. : BnF ",
-                "url": "audios/chantTraditionnelBreton.mp3",
-                "img": "images/chantTraditionnelBreton.jpg"
-            },{
-                "name": "Chant traditionnel breton",
-                "desc": "Interprète inconnu (collecté par Léon Azoulay)",
-                "subDesc": "Enregistrement sur cylindre, 140t/min \nDate d’édition : 1902",
-                "cote": "Cote CYL-428",
-                "provenance": "Prov. : BnF ",
-                "url": "audios/chantTraditionnelBreton.mp3",
-                "img": "images/chantTraditionnelBreton.jpg"
-            },{
-                "name": "Chant traditionnel breton",
-                "desc": "Interprète inconnu (collecté par Léon Azoulay)",
-                "subDesc": "Enregistrement sur cylindre, 140t/min \nDate d’édition : 1902",
-                "cote": "Cote CYL-428",
-                "provenance": "Prov. : BnF ",
-                "url": "audios/chantTraditionnelBreton.mp3",
-                "img": "images/chantTraditionnelBreton.jpg"
-            }
-        ]
-    },
-    {
-        "credits": "Test"
-    }
-]
+                    "title": "Chef de projet",
+                    "desc": "Nathalie Ryser, Éditions multimédias, BnF"
+                },
+                {
+                    "title": "Graphisme et développement",
+                    "desc": "Fleur de Papier"
+                }
+            ],
+            "logo": [
+                {
+                    "url": "bnfLogo.png",
+                    "width": 130,
+                    "height": 48
+                },
+                {
+                    "url": "fleurDePapier.png",
+                    "width": 94,
+                    "height": 72
+                }
+            ]
+        },
+        {
+            "title": "Mentions légales",
+            "content": [
+                {
+                    "title": "Éditeur & Hébergeur du site",
+                    "desc": "Bibliothèque nationale de France Adresse : Quai François Mauriac, 75706 Paris cedex 13"
+                },
+                {
+                    "title": "Directeur de la publication",
+                    "desc": "Madame Laurence Engel, présidente de la Bibliothèque nationale de France"
+                },
+                {
+                    "title": "Contact",
+                    "desc": "Tel : 33 (0)1 53 79 59 59\nE-mail : accueil@bnf.fr"
+                }
+            ],
+            "logo": [
+            ]
+        }
+    ]
+}]

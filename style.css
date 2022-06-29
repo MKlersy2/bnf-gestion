@@ -65,6 +65,14 @@ h2 {
     /* border-bottom: 1px solid black; */
 }
 
+.subGeneralElement {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    min-height: 60px;
+    /* border-bottom: 1px solid black; */
+}
+
 .generate {
     margin:20px auto;
 }
@@ -96,4 +104,31 @@ h2 {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.titleCred {
+    font-size: 25px;
+    margin: 30px 0
+}
+
+.generalElementCredit {
+    background-color: lightgrey;
+    padding:10px;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+}
+
+.deleteElementCredit {
+    cursor: pointer;
+    font-size: 9pt;
+    color:red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
